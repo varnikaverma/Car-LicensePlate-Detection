@@ -95,7 +95,7 @@ def predict():
         cropped_image = gray[x1:x2 + 1, y1:y2 + 1]
         reader = easyocr.Reader(['en'])
         result = reader.readtext(cropped_image)
-        text = result[0][-2]
+        text = result[1][-2]
         text.replace(" ", "")
 
         #########################################################################
