@@ -1,0 +1,99 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(133,142,153,0.25), rgba(133,142,153,0.25)), url("images/car.gif");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 835px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 4.5rem;
+  letter-spacing: 4px;
+  background-image: none;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: none;
+  animation-duration: 1750ms;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  width: 680px;
+  margin: 113px auto 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 60px;
+  width: 499px;
+  margin: 484px auto 0;
+}
+
+.u-section-1 .u-input-1 {
+  letter-spacing: 0px;
+  font-size: 1.25rem;
+  background-image: none;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  letter-spacing: 1px;
+  border-style: solid;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: normal;
+  margin: -59px 322px 60px auto;
+  padding: 11px 33px 11px 32px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 689px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 122px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 528px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 396px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 249px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 340px;
+    font-size: 2.25rem;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}
